@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cadastre-se</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0"/>
+    <link rel="stylesheet" href="formulario.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="form-title">Cadastre-se</h1>
+      <form action="#">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="fullName">Nome Completo</label>
+            <input type="text"
+                    id="fullName"
+                    name="fullName"
+                    placeholder="Insira seu nome completo"/>
+          </div>
+          <div class="user-input-box">
+            <label for="username">Nome de usuario</label>
+            <input type="text"
+                    id="username"
+                    name="username"
+                    placeholder="Insira nome de usuario"/>
+          </div>
+          <div class="user-input-box">
+            <label for="email">Email</label>
+            <input type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Insira seu email"/>
+          </div>
+          <div class="user-input-box">
+            <label for="phoneNumber">Numero de celular</label>
+            <input type="text"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    placeholder="Insira numero de celular"/>
+          </div>
+          <div class="user-input-box">
+            <label for="password">Senha</label>
+            <input type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Insira sua senha"/>
+          </div>
+          <div class="user-input-box">
+            <label for="confirmPassword">Confirme sua senha</label>
+            <input type="password"
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    placeholder="Confirme aqui"/>
+          </div>
+        </div>
+        <div class="gender-details-box">
+          <span class="gender-title">Gênero</span>
+          <div class="gender-category">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Masculino</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Feminino</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Outro</label>
+          </div>
+        </div>
+        <div class="form-submit-btn">
+          <input type="submit" value="Registre">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
